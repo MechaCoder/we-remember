@@ -1,12 +1,17 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import Test from './component/test.jsx';
+
+import Board from './component/board.jsx';
+import Header from './component/head.jsx';
+
+import '../scss/app.scss'
 
 class App extends Component {
     render(){
         return (
             <div>
-                <Test />
+                <Header />
+                <Board />
             </div>
         )
     }
