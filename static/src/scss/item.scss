@@ -1,0 +1,20 @@
+.item {
+    border: 1px solid silver;
+    width: 100px;
+    height: 170px;
+    background-color: #191919;
+    margin: 3px;
+    float: left;
+
+    & .inner{
+        margin: 5px;
+    }
+    & img {
+        width: 90px;
+        align-content: center;
+    }
+    & .index{
+        text-align: center;
+        font-size: 0.7em;
+    }
+}
