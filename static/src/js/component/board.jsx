@@ -7,7 +7,7 @@ export default class Board extends Component {
     constructor() {
         super();
         this.state = {
-            'dead': 3605,
+            'dead': 5373,
             'refresh': 0
         }
         this.getdata = this.getdata.bind(this)
