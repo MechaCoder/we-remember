@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7644475-a1d4-4d7d-9125-9a30b60d2260" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/InRemembrance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/InRemembrance.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/../Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/src/js/component/board.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../static/src/js/component/board.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/src/js/component/head.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../static/src/js/component/head.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../static/src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../static/src/scss/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../templates/base.html" afterDir="false" />
-    </list>
+    <list default="true" id="f7644475-a1d4-4d7d-9125-9a30b60d2260" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
