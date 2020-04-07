@@ -1,6 +1,15 @@
+
 .header {
     background-color: purple;
     color: whitesmoke;
     margin: 0;
     margin-top: -20px;
+    font-family: 'Meddon', cursive;
+    & h1 {
+        margin-left: 30px;
+    }
+    & span {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-left: 10px;
+    }
 }

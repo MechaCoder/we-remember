@@ -4,19 +4,23 @@ from time import time_ns
 from flask import Flask
 from flask import render_template
 
+from getcount.count import GetCount
+
 app = Flask(__name__)
+counts = GetCount()
 
 @app.route('/')
 def index():
     return render_template('base.html')
 
+
 @app.route('/getcount')
 def getCount():
     return dumps({
         'timestamp': time_ns(),
-        'count': 3605,
+        'count': counts.getData(),
     })
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')

@@ -7,20 +7,30 @@ export default class Board extends Component {
     constructor() {
         super();
         this.state = {
-            'dead': 3605
+            'dead': 3605,
+            'refresh': 0
         }
+        this.getdata = this.getdata.bind(this)
     }
 
-    componentDidMount(){
-
+    getdata(){
         fetch('/getcount').then((req)=>{
             return req.json();
         }).then((json)=>{
             this.setState({'dead': json['count']});
         })
-
     }
 
+    componentWillUnmount(){
+        clearInterval(this.interval)
+    }
+
+    componentDidMount(){
+        this.interval = setInterval(() => {
+            this.setState({'refresh': (this.state.refresh + 1) });
+            this.getdata();
+        }, 30000)
+    }
 
     render() {
 
@@ -34,7 +44,7 @@ export default class Board extends Component {
             eles = []
         }
         return (
-            <div className="board">
+            <div className="board" data-r={this.state.refresh}>
                 {eles}
             </div>
         )

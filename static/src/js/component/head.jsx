@@ -11,7 +11,7 @@ export default class Header extends Component {
         return (
             <div className='header'>
                 <div>
-                    <h1>In Remerance</h1>
+                    <h1>We Remember</h1>
                     <span> Each candle repesents someone who has died becouse of covid-19 in the UK </span>
                 </div>
             </div>
