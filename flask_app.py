@@ -25,7 +25,7 @@ def getCount():
 
     return dumps({
         'timestamp': time_ns(),
-        'count': gotData,
+        'count': str(gotData),
     })
 
 
