@@ -16,9 +16,16 @@ def index():
 
 @app.route('/getcount')
 def getCount():
+    try:
+        gotData = counts.getData()
+    except:
+        f = open('.count')
+        gotData = f.read()
+        f.close()
+
     return dumps({
         'timestamp': time_ns(),
-        'count': counts.getData(),
+        'count': gotData,
     })
 
 
